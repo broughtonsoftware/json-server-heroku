@@ -1,4 +1,14 @@
 {
+  "users": [
+    {
+      "Name": "John Doe",
+      "id": 1
+    },
+    {
+      "Name": "Susan Smith",
+      "id": 2
+    }
+  ],
   "manufacturers": [
     {
       "Id": 1,
@@ -131,6 +141,10 @@
     {
       "Id": 33,
       "Name": "Air & Space America"
+    },
+    {
+      "Id": 34,
+      "Name": "GE Lighting"
     }
   ],
   "vendors": [
@@ -139,16 +153,7 @@
       "name": "Textron"
     }
   ],
-  "parts": [
-    {
-      "userId": "1",
-      "isCustomPart": true,
-      "manufacturerId": 6,
-      "description": "My Part",
-      "partNumber": "BB-1",
-      "id": 1
-    }
-  ],
+  "parts": [],
   "shoppingCarts": [],
   "partsOrders": [
     {
@@ -156,21 +161,21 @@
       "parts": [
         {
           "userId": "1",
-          "partId": 1,
+          "partId": 2,
           "quantity": 1,
           "relatedDocumentUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
           "id": 1,
           "part": {
-            "userId": "1",
             "isCustomPart": true,
-            "manufacturerId": 4,
-            "description": "My Part",
-            "partNumber": "A1",
-            "id": 1
+            "manufacturerId": 34,
+            "description": "GE 28519 Miniature Incandescent Lamp",
+            "partNumber": "28519",
+            "id": 2
           }
         }
       ],
-      "workOrderNumber": "wo1234",
+      "workOrderNumber": "WO1",
+      "orderDate": "4/20/2020",
       "id": 1
     }
   ]
